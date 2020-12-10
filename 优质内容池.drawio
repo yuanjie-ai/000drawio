@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T10:15:51.414Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="13.10.1" etag="KMLLw9TG0Xv3bocQvfzq" type="github"><diagram id="mgjuj68-JPYxuV16a-Nf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-10T10:26:29.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="XofMHqQsbfh3Wc9jy68r" version="13.10.1" type="github">
+  <diagram id="mgjuj68-JPYxuV16a-Nf" name="Page-1">
+    <mxGraphModel dx="909" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UsgkRGuNmAD_UcuNvw-m-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsgkRGuNmAD_UcuNvw-m-2" target="UsgkRGuNmAD_UcuNvw-m-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsgkRGuNmAD_UcuNvw-m-18" value="根据docid检索相似文章" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UsgkRGuNmAD_UcuNvw-m-16">
+          <mxGeometry x="-0.1667" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsgkRGuNmAD_UcuNvw-m-2" value="优质内容&lt;b&gt;ANN&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UsgkRGuNmAD_UcuNvw-m-5" value="向量化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UsgkRGuNmAD_UcuNvw-m-3" target="UsgkRGuNmAD_UcuNvw-m-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsgkRGuNmAD_UcuNvw-m-3" value="NH过审文章" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="305" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsgkRGuNmAD_UcuNvw-m-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsgkRGuNmAD_UcuNvw-m-15" target="UsgkRGuNmAD_UcuNvw-m-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsgkRGuNmAD_UcuNvw-m-15" value="docid-score &lt;br&gt;Avg(top5文章得分)" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="305" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UsgkRGuNmAD_UcuNvw-m-19" value="倒排生成召回队列" style="whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="305" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
